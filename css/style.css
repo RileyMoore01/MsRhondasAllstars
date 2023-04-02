@@ -185,6 +185,7 @@ body {
 
 .background {
     max-width: 70%;
+    padding: 10px;
     border-radius: 25px;
     margin-left: calc(100vw / 7);
     justify-content: center;
