@@ -10,6 +10,8 @@ body {
     font-family: "Poppins", sans-serif;
     text-align: center;
     justify-content: center;
+    color: white;
+    background-image: url("/images/poolBackgrouind.jpg");
 }
 
 .container {
@@ -169,10 +171,26 @@ body {
 .level {
     max-width: calc(100vw - 100px);
     border: solid;
+    border-radius: 25px;
     border-color: red;
+    background-color: white;
+    color: black;
     padding: 10px;
     margin-bottom: 20px;
     margin-left: 50px;
+}
+
+.background {
+    max-width: 70%;
+    border-radius: 25px;
+    margin-left: calc(100vw / 7);
+    justify-content: center;
+    background-color: white;
+    color: black;
+}
+
+img {
+    border-radius: 25px;
 }
 
 footer {
