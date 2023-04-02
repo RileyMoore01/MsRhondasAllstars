@@ -11,7 +11,8 @@ body {
     text-align: center;
     justify-content: center;
     color: white;
-    background-image: url("images/poolBackgrouind.jpg");
+    /* background-image: url("images/poolBackgrouind.jpg"); */
+    background-image: url("https://github.com/RileyMoore01/MsRhondasAllstars/blob/main/images/poolBackgrouind.jpg");
 }
 
 .container {
