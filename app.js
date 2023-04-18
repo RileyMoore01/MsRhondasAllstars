@@ -1,4 +1,19 @@
-function toggle(btnID, eIDs) {
+function toggle() {
+  var table = document.getElementById('dropdownTable');
+  if (sessionStorage.getItem('key') == 'True')
+  {
+    table.style.display = "none";
+    sessionStorage.setItem("key", "False")
+  }
+  else {
+    table.style.display = "block";
+    sessionStorage.setItem("key", "True")
+  }
+}
+
+
+//------------------------------------------------------------------------------------------
+function toggle2(btnID, eIDs) {
 
     // Feed the list of ids as a selector
     var theRows = document.querySelectorAll(eIDs);
