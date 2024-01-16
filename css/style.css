@@ -172,15 +172,16 @@ body {
 /* Body  */
 
 .level {
-    max-width: calc(100vw - 100px);
+    max-width: 70%;
+    justify-content: center;
     border: solid;
     border-radius: 25px;
     border-color: red;
     background-color: white;
     color: black;
     padding: 10px;
+    margin-left: calc(100vw / 7);
     margin-bottom: 20px;
-    margin-left: 50px;
 }
 
 .background {
