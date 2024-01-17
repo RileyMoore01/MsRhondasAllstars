@@ -10,6 +10,11 @@
     -webkit-animation: fadeIn 2s;
 }
 
+.no-space {
+    padding: 0;
+    margin: 0;
+}
+
 .footer {
     position: sticky;
     bottom: 100%;

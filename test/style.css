@@ -1,0 +1,31 @@
+/* Styles for larger screens */
+.extra-info {
+    display: table-cell;
+}
+.extra-info-row {
+    display: none;
+}
+.dropdown-button {
+    display: none;
+}
+
+/* Styles for small screens */
+@media screen and (max-width: 600px) {
+    .extra-info {
+        display: none;
+    }
+    .dropdown-button {
+        display: table-cell;
+    }
+    .extra-info-row {
+        display: none;
+    }
+    .extra-info-content {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-out;
+    }
+    .show .extra-info-content {
+        max-height: 100px; /* Adjust as per content size */
+    }
+}

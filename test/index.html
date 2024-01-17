@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<table id="responsiveTable">
+    <thead>
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+            <th class="extra-info">Column 4</th>
+            <th class="extra-info">Column 5</th>
+            <th class="extra-info">Column 6</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Repeat this structure for 10 rows -->
+        <tr>
+            <td>Data 1A</td>
+            <td>Data 1B</td>
+            <td>Data 1C</td>
+            <td class="dropdown-button"><button onclick="toggleDetails(this)">More</button></td>
+        </tr>
+        <tr class="extra-info-row">
+            <td colspan="4">
+                <div class="extra-info-content">
+                    Data 1D, Data 1E, Data 1F
+                </div>
+            </td>
+        </tr>
+        <!-- More rows... -->
+    </tbody>
+</table>
+
+<script src="app.js"></script>
+</body>
+</html>
