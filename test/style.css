@@ -1,31 +1,31 @@
-/* Styles for larger screens */
 .extra-info {
     display: table-cell;
 }
-.extra-info-row {
-    display: none;
-}
+
+.dropdown-content,
 .dropdown-button {
     display: none;
 }
 
-/* Styles for small screens */
 @media screen and (max-width: 600px) {
+    .show {
+        display:block;        
+    }
+
+    .extra {
+        display:none;
+    }
+
     .extra-info {
         display: none;
     }
-    .dropdown-button {
-        display: table-cell;
-    }
-    .extra-info-row {
+    .dropdown-content {
         display: none;
     }
-    .extra-info-content {
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.5s ease-out;
+    .dropdown-content.show {
+        display: table-row;
     }
-    .show .extra-info-content {
-        max-height: 100px; /* Adjust as per content size */
+    .dropdown-button {
+        display: table-cell !important;
     }
 }

@@ -17,24 +17,32 @@
         </tr>
     </thead>
     <tbody>
-        <!-- Repeat this structure for 10 rows -->
+        <!-- Repeat this structure for the desired number of rows -->
         <tr>
             <td>Data 1A</td>
             <td>Data 1B</td>
             <td>Data 1C</td>
-            <td class="dropdown-button"><button onclick="toggleDetails(this)">More</button></td>
+            <td class="extra-info">Data 1D</td>
+            <td class="extra-info">Data 1E</td>
+            <td class="extra-info">Data 1F</td>
+            <td colspan="3" class="dropdown-button">
+                <button onclick="toggleDropdown(this)">More</button>
+            </td>
         </tr>
-        <tr class="extra-info-row">
-            <td colspan="4">
-                <div class="extra-info-content">
+        <tr class="dropdown-content" id="dropdown-content">
+            <td class="extra">Data 1D</td>
+            <td class="extra">Data 1E</td>
+            <td class="extra">Data 1F</td>
+            <!-- <td colspan="3">
+                <div class="extra-info-wrapper">
                     Data 1D, Data 1E, Data 1F
                 </div>
-            </td>
+            </td> -->
         </tr>
         <!-- More rows... -->
     </tbody>
 </table>
 
-<script src="app.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
