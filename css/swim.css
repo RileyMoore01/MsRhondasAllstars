@@ -1,7 +1,23 @@
 /* Remove this when the schedule gets put back in! */
-.background {
-    margin-bottom: 58vh;
+.top-card {
+    margin-top: calc(100vh /10);
 }
+
+
+body {
+    max-height: 100%;
+    height: 100vh;
+}
+
+footer {
+    max-height: 100%;
+    height: 100vh;
+}
+
+p {
+    padding: 10px;
+}
+/* --------------------------------------------------- */
 
 .swim-date {
     font-weight:bold;    
