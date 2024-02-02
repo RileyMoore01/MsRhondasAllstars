@@ -58,6 +58,7 @@ body {
     display: block;
     position: relative;
     height: 60px;
+    background-color: #333333;
 }
 
 .nav-container .checkbox {
@@ -92,7 +93,7 @@ body {
     height: 4px;
     width: 100%;
     border-radius: 10px;
-    background: black;
+    background: #FF6B6B;
 }
 
 .nav-container .hamburger-lines .line1 {

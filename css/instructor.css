@@ -1,0 +1,20 @@
+.faq-logo {
+    background-color: white;
+    max-width: 200px;
+}
+
+.instructor-content {
+    justify-content: center;
+}
+
+img {
+    vertical-align: middle;
+    width: 100%; /* Responsive image */
+}
+
+.slideshow-container {
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
