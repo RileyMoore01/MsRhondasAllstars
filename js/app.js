@@ -22,6 +22,19 @@
 //     });
 // });
 
+
+function hideSlideShow() {
+    var element = document.getElementById("hamburger-menu");
+    var slideShow = document.getElementById("slideshow-container");
+
+    if (slideShow.style.display == 'none') {
+        slideShow.style.display = '';
+    }
+    else {
+        slideShow.style.display = 'none';
+    }
+}
+
 let slideIndex = 0;
 showSlides();
 
@@ -36,4 +49,3 @@ function showSlides() {
     slides[slideIndex-1].style.display = "block";  
     setTimeout(showSlides, 3000); // Change image every 3 seconds
 }
-
