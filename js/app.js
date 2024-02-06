@@ -22,16 +22,15 @@
 //     });
 // });
 
+function hidePictures() {
+    var divs = document.getElementsByClassName('toggle-div');
 
-function hideSlideShow() {
-    var element = document.getElementById("hamburger-menu");
-    var slideShow = document.getElementById("slideshow-container");
-
-    if (slideShow.style.display == 'none') {
-        slideShow.style.display = '';
-    }
-    else {
-        slideShow.style.display = 'none';
+    for (var i = 0; i < divs.length; i++) {
+        if (divs[i].style.display === 'none') {
+            divs[i].style.display = '';
+        } else {
+            divs[i].style.display = 'none';
+        }
     }
 }
 

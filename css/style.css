@@ -182,7 +182,7 @@ body {
     border: solid;
     border-radius: 25px;
     border-width: 0.4em;
-    border-color: black;
+    border-color: #333333;
     background-color: white;
     color: black;
     padding: 10px;
@@ -215,8 +215,8 @@ img {
 
 
 footer {
-    background-color: black;
-    color: white;
+    background-color: #333333;
+    color: #FF6B6B;
     padding-bottom: 20px;
 }
 
